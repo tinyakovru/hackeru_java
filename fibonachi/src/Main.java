@@ -1,10 +1,12 @@
+import java.math.BigInteger;
+
 public class Main {
     public static long n1,n2,temp,N,count;
     public static void main(String[] args) {
-        System.out.println(fibo(10));
+        System.out.println(fibo(1000000));
     }
 
-    public static long fibo(int N){
+    public static BigInteger fibo(int N){
         int count = 3;
         long n1=n2=1;
         long temp;

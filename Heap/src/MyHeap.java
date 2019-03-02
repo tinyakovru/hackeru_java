@@ -48,7 +48,13 @@ public class MyHeap {
         }
     }
 
-    public int getMax(){
+    public int getMaxNum(){
+        int res = getMax();
+        sortHeap(0);
+        return res;
+    }
+
+    private int getMax(){
         int res = list.get(0);
         list.set(0,list.get(list.size()-1));
         list.remove(list.size()-1);

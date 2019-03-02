@@ -18,6 +18,7 @@ public class Main {
         System.out.println(list.toString());
         list.reverse();
         System.out.println(list.toString());
+
 /*
 
         MyArray<String> strings = new MyArray<>(String.class);
@@ -36,6 +37,7 @@ public class Main {
         strings.add("12");
         System.out.println(strings.toString());
 */
+
 
     }
 }

@@ -31,7 +31,6 @@ public class MyList<T>  {
             head = prev.next;
             size--;
             return true;
-
         }else{
             while(prev.next!=null){
                 MyNode cur = prev.next;
@@ -48,6 +47,21 @@ public class MyList<T>  {
     }
 
     public void reverse(){
+        if(head.next == null) return;
+
+        MyNode cur = head.next;
+        MyNode prev = head;
+        while(cur != null) {
+            head.next = cur.next;
+            cur.next = prev;
+
+            prev = cur;
+            cur = head.next;
+        }
+        head = prev;
+    }
+
+    public void reverse2(){
         MyNode[] links = new MyNode[size-1];
         MyNode node = head;
         int count =0;
@@ -71,7 +85,6 @@ public class MyList<T>  {
                 node.next = links[count];
             }
             count++;
-
             node = nextNode;
         }
         head = node;

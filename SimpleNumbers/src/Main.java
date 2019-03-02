@@ -20,17 +20,14 @@ public class Main {
     }
 
     private static ArrayList getAllSimple(int num){
-        int c = 2;
         boolean[] markers = new boolean[num+1];
-        markers[0] = true;
-        markers[1] = true;
 
         ArrayList<Integer> result = new ArrayList<Integer>();
         for(int i=2; i<=num; i++){
             if(!markers[i]){
                 result.add(i);
             }
-            for(var k=2; k<=i; k++){
+            for(int k=2; k<=i; k++){
                 int foo = k*i;
                 if (foo>num) break;
                 markers[foo] = true;
