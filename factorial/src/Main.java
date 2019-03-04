@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        int n = 5;
+        int n = 20;
         System.out.printf("factorial %d = %d",n,factorial(n));
     }
 

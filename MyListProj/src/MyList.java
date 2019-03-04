@@ -61,6 +61,19 @@ public class MyList<T>  {
         head = prev;
     }
 
+    public void reverse_(){
+        if(head.next == null) return;
+
+        MyNode foo = head;
+        while(head.next != null) {
+            head = head.next;
+            head.next = foo;
+
+            foo = head;
+
+        }
+    }
+
     public void reverse2(){
         MyNode[] links = new MyNode[size-1];
         MyNode node = head;

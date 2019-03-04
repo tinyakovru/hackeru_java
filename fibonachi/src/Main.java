@@ -6,7 +6,7 @@ public class Main {
         System.out.println(fibo(1000000));
     }
 
-    public static BigInteger fibo(int N){
+    public static long fibo(int N){
         int count = 3;
         long n1=n2=1;
         long temp;

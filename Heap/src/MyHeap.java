@@ -75,8 +75,7 @@ public class MyHeap {
         buildHeap(ar);
 
         for(int i=ar.length-1; i>=0; i--){
-            ar[i] = getMax();
-            sortHeap(0);
+            ar[i] = getMaxNum();
         }
     }
 
