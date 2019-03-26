@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878fd64b-fbc2-4291-af08-6abf1d1cfa5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MyAnnotationSystem/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyAnnotationSystem/src/main/java/annotations/AfterSuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyAnnotationSystem/src/main/java/annotations/BeforSuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyAnnotationSystem/src/main/java/annotations/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyAnnotationSystem/src/main/java/testManager/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyAnnotationSystem/src/main/java/testManager/TestManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyAnnotationSystem/src/main/java/tests/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyAnnotationSystem/src/main/java/tests/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bookReader/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AppInject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/Inject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../finalProject/src/main/java/ru/tinyakov/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../reflexionapi/src/main/java/calculator/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../reflexionapi/src/main/java/ru/tinyakov/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../reflexionapi/src/main/java/ru/tinyakov/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../reflexionapi/src/main/java/ru/tinyakov/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../reflexionapi/src/main/java/ru/tinyakov/annotations/About.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../reflexionapi/src/test/java/calculator/CalculatorParametrizedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../reflexionapi/src/test/java/calculator/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mfu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mfu/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyAnnotationSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAnnotationSystem/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AppInject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="27" column="65" lean-forward="true" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+            <state relative-caret-position="340">
+              <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,12 +61,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Engine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            <state relative-caret-position="154">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding>
+                <element signature="e#71#72#0" expanded="true" />
                 <element signature="e#103#104#0" expanded="true" />
               </folding>
             </state>
@@ -109,10 +89,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Engine.java" />
         <option value="$PROJECT_DIR$/src/main/java/annotations/Inject.java" />
         <option value="$PROJECT_DIR$/src/main/java/Car.java" />
         <option value="$PROJECT_DIR$/src/main/java/AppInject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Engine.java" />
       </list>
     </option>
   </component>
@@ -162,7 +142,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553288388145" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553331725532" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -209,7 +189,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-8" width="1871" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -225,7 +204,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32917964" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997923" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -273,16 +252,6 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-          <folding>
-            <element signature="e#103#104#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -316,10 +285,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AppInject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="27" column="65" lean-forward="true" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+        <state relative-caret-position="340">
+          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#71#72#0" expanded="true" />
+            <element signature="e#103#104#0" expanded="true" />
           </folding>
         </state>
       </provider>

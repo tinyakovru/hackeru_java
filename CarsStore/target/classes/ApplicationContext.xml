@@ -1,0 +1,16 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="jsonMapper" class="com.fasterxml.jackson.databind.ObjectMapper" />
+
+    <bean id="jsonRepository" class="ru.tinyakov.repository.JSONCarRepository">
+        <property name="mapper" ref="jsonMapper" />
+    </bean>
+
+    <bean id="service" class="ru.tinyakov.services.JSONCarService">
+        <property name="repository" ref="jsonRepository" />
+    </bean>
+
+</beans>
