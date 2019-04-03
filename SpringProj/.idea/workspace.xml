@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffe6109e-78b8-4ea1-a067-7655670dba0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CarsStore/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CarsStore/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CarsStore/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CarsStore/src/main/java/ru/tinyakov/app/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CarsStore/src/main/java/ru/tinyakov/entity/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CarsStore/src/main/java/ru/tinyakov/exceptions/CarServicesException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CarsStore/src/main/java/ru/tinyakov/repository/ICarRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CarsStore/src/main/java/ru/tinyakov/repository/JSONCarRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CarsStore/src/main/java/ru/tinyakov/services/ICarServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CarsStore/src/main/java/ru/tinyakov/services/JSONCarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CarsStore/src/main/java/ru/tinyakov/utils/Help.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CarsStore/src/main/resources/ApplicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CarsStore/src/main/resources/cars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CarsStore/src/main/resources/helptxt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/calculator/BestCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/calculator/ICalc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factories/LoggerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logger/BufLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logger/ConsoleLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logger/FileLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logger/Loggable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyAnnotationSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyAnnotationSystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../carInjectEngine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../carInjectEngine/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CarsStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CarsStore/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -214,37 +187,6 @@
               <item name="SpringProj" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringProj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringProj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringProj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringProj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logger" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringProj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringProj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringProj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringProj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -267,7 +209,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553613532633" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553618598879" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
@@ -331,7 +273,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32917964" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
