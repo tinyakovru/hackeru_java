@@ -8,10 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.*;
 import ru.tinyakov.entity.Car;
 import ru.tinyakov.exceptions.CarServicesException;
 import ru.tinyakov.services.ICarServices;
@@ -58,7 +55,7 @@ public class MainApp {
         return "add";
     }
 
-
+/*
     //    String jsonStr
     @PostMapping(value = "/cars/insert", consumes = {MediaType.APPLICATION_JSON_VALUE})
     public String insert(Model model, @RequestBody String carString) {
@@ -91,10 +88,11 @@ public class MainApp {
         }
         return "index";
     }
-/*
+    */
 
-    @PostMapping(value = "/cars/insert", consumes = {MediaType.APPLICATION_JSON_VALUE})
-    public String insert(Model model, @RequestBody Car car) {
+
+    @PostMapping(value = "/cars/insert")
+    public String insert(@ModelAttribute(value = "car") Car car, Model model ) {
         try {
             if (car.getId() > 0) {
                 service.update(car);
@@ -107,7 +105,6 @@ public class MainApp {
         }
         return "index";
     }
-*/
 
     @GetMapping("/cars/delete/{id}")
     public String delete(Model model, @PathVariable int id) {

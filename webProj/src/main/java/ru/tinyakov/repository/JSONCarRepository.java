@@ -40,8 +40,10 @@ public class JSONCarRepository implements ICarRepository {
 
     @Override
     public boolean insert(Car car) {
+
         List<Car> list = getAllCars();
-        Car newCar = new Car(list.size()+1,
+        int newid = list.get(list.size()-1).getId()+1;
+        Car newCar = new Car(newid,
                         car.getMaker(),
                         car.getModel(),
                         car.getYear(),

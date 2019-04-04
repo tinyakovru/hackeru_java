@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec09fb93-d723-4bfb-9386-6547fc2d53d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/App2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/author.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/book.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVCproj/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVCproj/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVCproj/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVCproj/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVCproj/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVCproj/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVCproj/springMVCproj.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVCproj/src/main/java/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springMVCproj/src/main/webapp/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webProj/src/main/java/MainController__.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webProj/src/main/java/ru/tinyakov/controller/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webProj/src/main/webapp/META-INF/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webProj/src/main/webapp/WEB-INF/view/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webProj/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CarsStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CarsStore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringProj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringProj/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testCollections-delete-after-testing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testCollections-delete-after-testing/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -278,12 +255,12 @@
       <updated>1553938725325</updated>
       <workItem from="1553938729448" duration="11371000" />
       <workItem from="1554192971207" duration="3069000" />
-      <workItem from="1554309378947" duration="446000" />
+      <workItem from="1554309378947" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14886000" />
+    <option name="totallyTimeSpent" value="15039000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-8" width="1871" height="1096" extended-state="6" />
