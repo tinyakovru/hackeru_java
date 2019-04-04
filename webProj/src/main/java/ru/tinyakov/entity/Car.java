@@ -4,11 +4,9 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Car {
 
-    @JsonProperty(value = "id")
     private int id;
 
-    @JsonProperty(value = "maker")
-    private String maker;
+    private Maker maker;
 
     @JsonProperty(value = "model")
     private String model;

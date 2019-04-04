@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad158eb0-5606-4ddb-a22b-0c084af2ee42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/tinyakov/entity/Maker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/car.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/maker.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/maker/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/maker/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj_jdbc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../proj_jdbc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../testCollections-delete-after-testing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testCollections-delete-after-testing/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tinyakov/controller/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tinyakov/controller/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tinyakov/repository/JSONCarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tinyakov/repository/JSONCarRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/cars/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/cars/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cars.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cars.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/tinyakov/controller/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/tinyakov/controller/MainApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/tinyakov/repository/JSONCarRepository$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/tinyakov/repository/JSONCarRepository$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/tinyakov/repository/JSONCarRepository$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/tinyakov/repository/JSONCarRepository$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/tinyakov/repository/JSONCarRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/tinyakov/repository/JSONCarRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sring-mvc-tinyakov.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/sring-mvc-tinyakov.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sring-mvc-tinyakov/WEB-INF/classes/ru/tinyakov/controller/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/sring-mvc-tinyakov/WEB-INF/classes/ru/tinyakov/controller/MainApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sring-mvc-tinyakov/WEB-INF/classes/ru/tinyakov/repository/JSONCarRepository$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/sring-mvc-tinyakov/WEB-INF/classes/ru/tinyakov/repository/JSONCarRepository$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sring-mvc-tinyakov/WEB-INF/classes/ru/tinyakov/repository/JSONCarRepository$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/sring-mvc-tinyakov/WEB-INF/classes/ru/tinyakov/repository/JSONCarRepository$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sring-mvc-tinyakov/WEB-INF/classes/ru/tinyakov/repository/JSONCarRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/sring-mvc-tinyakov/WEB-INF/classes/ru/tinyakov/repository/JSONCarRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view/add_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view/add_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view/index_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/view/index_jsp.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/controller/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
@@ -48,6 +22,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/entity/Car.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -351,7 +334,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554408139255" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554408751548" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -399,12 +382,12 @@
       <workItem from="1553776066218" duration="29566000" />
       <workItem from="1554211444048" duration="5030000" />
       <workItem from="1554309373524" duration="599000" />
-      <workItem from="1554395723634" duration="4754000" />
+      <workItem from="1554395723634" duration="5364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43560000" />
+    <option name="totallyTimeSpent" value="44170000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -632,13 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/entity/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/controller/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -646,6 +622,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/entity/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
