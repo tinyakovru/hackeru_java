@@ -2,12 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad158eb0-5606-4ddb-a22b-0c084af2ee42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/tinyakov/controller/MakerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/tinyakov/exceptions/MakerServicesException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/tinyakov/repository/HBMCarRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/tinyakov/repository/HBMMakerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/tinyakov/repository/IRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/tinyakov/services/CarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/tinyakov/services/IMakerServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/tinyakov/services/MakerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/tinyakov/utils/HibernateUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tinyakov/entity/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tinyakov/entity/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tinyakov/entity/Maker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tinyakov/entity/Maker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/car.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/car.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/maker.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/maker.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tinyakov/controller/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tinyakov/controller/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tinyakov/repository/ICarRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tinyakov/repository/JSONCarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tinyakov/repository/JSONCarRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tinyakov/services/ICarServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tinyakov/services/ICarServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/tinyakov/services/JSONCarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/tinyakov/services/JSONCarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/maker/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/maker/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cars.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cars.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/tinyakov/entity/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/tinyakov/entity/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/tinyakov/repository/ICarRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/tinyakov/repository/JSONCarRepository$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/tinyakov/repository/JSONCarRepository$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/tinyakov/repository/JSONCarRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/tinyakov/services/JSONCarService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sring-mvc-tinyakov.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/sring-mvc-tinyakov.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sring-mvc-tinyakov/WEB-INF/classes/ru/tinyakov/entity/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/sring-mvc-tinyakov/WEB-INF/classes/ru/tinyakov/entity/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sring-mvc-tinyakov/WEB-INF/classes/ru/tinyakov/repository/ICarRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sring-mvc-tinyakov/WEB-INF/classes/ru/tinyakov/repository/JSONCarRepository$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sring-mvc-tinyakov/WEB-INF/classes/ru/tinyakov/repository/JSONCarRepository$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sring-mvc-tinyakov/WEB-INF/classes/ru/tinyakov/repository/JSONCarRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sring-mvc-tinyakov/WEB-INF/classes/ru/tinyakov/services/JSONCarService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sring-mvc-tinyakov/WEB-INF/view/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sring-mvc-tinyakov/WEB-INF/view/index.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,138 +50,65 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/controller/MainApp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/controller/MakerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/entity/Car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#838#839#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#619#620#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-                <element signature="e#745#746#0" expanded="true" />
-                <element signature="e#777#778#0" expanded="true" />
-                <element signature="e#807#808#0" expanded="true" />
-                <element signature="e#833#834#0" expanded="true" />
-                <element signature="e#871#872#0" expanded="true" />
-                <element signature="e#901#902#0" expanded="true" />
-                <element signature="e#933#934#0" expanded="true" />
-                <element signature="e#964#965#0" expanded="true" />
-                <element signature="e#1009#1010#0" expanded="true" />
-                <element signature="e#1049#1050#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/entity/Maker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-              <folding>
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#215#216#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/services/JSONCarService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/repository/JSONCarRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+            <state relative-caret-position="651">
+              <caret line="55" column="8" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/services/CarService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+            <state relative-caret-position="277">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding>
-                <element signature="e#454#459#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/ApplicationContext.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/services/IMakerServices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/controller/CarController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="161" column="35" selection-start-line="161" selection-start-column="35" selection-end-line="161" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
+                <element signature="e#1053#1054#0" expanded="true" />
+                <element signature="e#1113#1114#0" expanded="true" />
+                <element signature="e#1161#1162#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/services/ICarServices.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="11" column="65" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="65" />
+              <caret line="14" column="51" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/maker/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/maker/add.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/repository/ICarRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="541">
+              <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -186,19 +143,33 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/target/sring-mvc-tinyakov/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/tinyakov/services/ICarServices.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/tinyakov/services/JSONCarService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/add.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/tinyakov/controller/MainApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/tinyakov/repository/JSONCarRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/maker/add.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ru/tinyakov/entity/Car.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/tinyakov/entity/Maker.java" />
         <option value="$PROJECT_DIR$/src/main/resources/car.hbm.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/maker.hbm.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/tinyakov/repository/IRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/tinyakov/controller/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/tinyakov/exceptions/MakerServicesException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/tinyakov/services/CarServise.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/tinyakov/repository/IMakerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/tinyakov/utils/HibernateUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/tinyakov/repository/JSONCarRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/tinyakov/services/JSONCarService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/maker/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/tinyakov/utils/HibernateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/tinyakov/repository/HBMMakerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/tinyakov/repository/HBMCarRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/tinyakov/services/MakerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/tinyakov/services/ICarServices.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/tinyakov/services/CarService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/tinyakov/controller/CarController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/tinyakov/services/IMakerServices.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/tinyakov/controller/MakerController.java" />
       </list>
     </option>
   </component>
@@ -261,7 +232,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tinyakov" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webProj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webProj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tinyakov" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webProj" type="b2602c69:ProjectViewProjectNode" />
@@ -280,6 +260,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tinyakov" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webProj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webProj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tinyakov" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webProj" type="b2602c69:ProjectViewProjectNode" />
@@ -324,6 +313,16 @@
             </path>
             <path>
               <item name="webProj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webProj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="maker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webProj" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -338,18 +337,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554409684069" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554490941633" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\!work\hackerU\javaProjects\hackeru_java\webProj\src\main\webapp\WEB-INF\view\cars" />
-      <recent name="D:\!work\hackerU\javaProjects\hackeru_java\webProj\src\main\webapp" />
-      <recent name="D:\!work\hackerU\javaProjects\hackeru_java\webProj\src\main\webapp\WEB-INF" />
-      <recent name="D:\!work\hackerU\javaProjects\hackeru_java\webProj\src\main\webapp\WEB-INF\view" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.tinyakov.exceptions" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\!work\hackerU\javaProjects\hackeru_java\webProj\src\main\resources" />
@@ -357,6 +353,17 @@
       <recent name="D:\!work\hackerU\javaProjects\hackeru_java\webProj\src\main\webapp\WEB-INF\view" />
       <recent name="D:\!work\hackerU\javaProjects\hackeru_java\webProj\src\main\java" />
       <recent name="D:\!work\hackerU\javaProjects\hackeru_java\webProj\src\main\webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.tinyakov.repository" />
+      <recent name="ru.tinyakov.services" />
+      <recent name="ru.tinyakov.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\!work\hackerU\javaProjects\hackeru_java\webProj\src\main\webapp\WEB-INF\view\cars" />
+      <recent name="D:\!work\hackerU\javaProjects\hackeru_java\webProj\src\main\webapp" />
+      <recent name="D:\!work\hackerU\javaProjects\hackeru_java\webProj\src\main\webapp\WEB-INF" />
+      <recent name="D:\!work\hackerU\javaProjects\hackeru_java\webProj\src\main\webapp\WEB-INF\view" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -386,12 +393,14 @@
       <workItem from="1553776066218" duration="29566000" />
       <workItem from="1554211444048" duration="5030000" />
       <workItem from="1554309373524" duration="599000" />
-      <workItem from="1554395723634" duration="6805000" />
+      <workItem from="1554395723634" duration="7348000" />
+      <workItem from="1554452782044" duration="4475000" />
+      <workItem from="1554480512975" duration="9472000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45611000" />
+    <option name="totallyTimeSpent" value="60101000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -406,7 +415,7 @@
     <frame x="57" y="-8" width="1871" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26504692" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27056876" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -421,7 +430,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917964" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.41329178" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.41329178" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.33723405" />
@@ -508,13 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/app-servlet-2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/sring-mvc-tinyakov/WEB-INF/app-servlet-2.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -539,110 +541,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/services/ICarServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/repository/ICarRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/services/JSONCarService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/repository/JSONCarRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/maker/add.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/controller/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/entity/Maker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding>
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/entity/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -660,6 +562,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/entity/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/entity/Maker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ApplicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -667,19 +590,171 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/repository/ICarRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/repository/IMakerRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/exceptions/CarServicesException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="5" column="5" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/exceptions/MakerServicesException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/repository/JSONCarRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="27" selection-end-line="150" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-143">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/services/JSONCarService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/app-servlet-2.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+          <caret line="29" column="67" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.4.1.Final/hibernate-core-5.4.1.Final.jar!/org/hibernate/SessionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/utils/HibernateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+        <state relative-caret-position="154">
+          <caret line="7" column="85" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
           <folding>
             <element signature="e#454#459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/repository/HBMCarRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/repository/HBMMakerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/repository/IRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/services/ICarServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/controller/CarController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="161" column="35" selection-start-line="161" selection-start-column="35" selection-end-line="161" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/services/IMakerServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/services/MakerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/maker/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/controller/MakerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="55" column="8" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/tinyakov/services/CarService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

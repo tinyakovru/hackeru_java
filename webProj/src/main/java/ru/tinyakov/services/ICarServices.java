@@ -6,11 +6,11 @@ import ru.tinyakov.exceptions.CarServicesException;
 import java.util.List;
 
 public interface ICarServices {
-    List<Car> get() throws CarServicesException;
+    List<Car> get();
 
-    Car get(int id) throws CarServicesException;
+    Car get(int id);
 
-    boolean insert(Car car) throws CarServicesException;
+    void insert(Car car) throws CarServicesException;
 
     void delete(int id) throws CarServicesException;
 

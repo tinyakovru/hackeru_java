@@ -1,3 +1,4 @@
+/*
 package ru.tinyakov.repository;
 
 import com.fasterxml.jackson.core.JsonParseException;
@@ -146,3 +147,4 @@ public class JSONCarRepository implements ICarRepository {
         return list;
     }
 }
+*/

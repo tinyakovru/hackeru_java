@@ -1,3 +1,4 @@
+/*
 package ru.tinyakov.services;
 
 
@@ -54,3 +55,4 @@ public class JSONCarService implements ICarServices {
         if(!repository.update(c)) throw new CarServicesException("Car is not updated");
     }
 }
+*/

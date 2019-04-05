@@ -4,9 +4,9 @@
     Author     : admin
 --%>
 
-<%@page import="ru.tinyakov.entity.Car"%>
+<%@page import="ru.tinyakov.entity.Maker"%>
 <%@page import="java.util.List"%>
-<%@ page import="ru.tinyakov.entity.Car" %>
+<%@ page import="ru.tinyakov.entity.Maker" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
 <!DOCTYPE html>
@@ -18,39 +18,33 @@
 </head>
 <body>
 <div class="container">
-    <h2>Список автомобилей в продаже</h2>
+    <h2>Список автопроизводителей</h2>
     <hr />
     <div style="margin-bottom: 2em" class="row">
         <div class="col-12">
-            <a href="/cars/add" class="btn btn-primary">Добавить автомобиль</a>
+            <a href="/maker/add" class="btn btn-primary">Добавить производителя</a>
         </div>
     </div>
     <table class="table table-hovered table-border">
         <thead>
         <tr>
             <th>ID</th>
-            <th>Марка</th>
-            <th>Модель</th>
-            <th>VIN</th>
-            <th>Год выпуска</th>
-            <th>Пробег</th>
+            <th>Производитель</th>
+
             <th colspan="2">Operations</th>
         </tr>
         </thead>
         <tbody>
         <%
-            List<Car> list = (List<Car>)request.getAttribute("cars");
-            for (Car car : list) {
+            List<Maker> list = (List<Maker>)request.getAttribute("maker");
+            for (Maker m : list) {
         %>
         <tr>
-            <td><%=car.getId()%></td>
-            <td><%=car.getMaker()%></td>
-            <td><%=car.getModel()%></td>
-            <td><%=car.getVin()%></td>
-            <td><%=car.getYear()%></td>
-            <td><%=car.getOdometer()%></td>
-            <td><a href="/cars/edit/<%=car.getId()%>">edit</a></td>
-            <td><a href="/cars/delete/<%=car.getId()%>">delete</a></td>
+            <td><%=m.getId()%></td>
+            <td><%=m.getTitle()%></td>
+
+            <td><a href="/cars/edit/<%=m.getId()%>">edit</a></td>
+            <td><a href="/cars/delete/<%=m.getId()%>">delete</a></td>
         </tr>
         <%
             }
