@@ -2,9 +2,10 @@ package ru.tinyakov.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Car {
+public class Car implements Serializable {
 
     private int id;
 

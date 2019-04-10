@@ -3,9 +3,10 @@ ru\tinyakov\services\CarService.class
 ru\tinyakov\services\IMakerServices.class
 ru\tinyakov\entity\Car.class
 ru\tinyakov\utils\Help.class
+ru\tinyakov\utils\MakerConverter.class
+ru\tinyakov\controller\CarController.class
 ru\tinyakov\repository\IRepository.class
 ru\tinyakov\services\ICarServices.class
-ru\tinyakov\controller\MainApp.class
 ru\tinyakov\controller\MakerController.class
 ru\tinyakov\services\MakerService.class
 ru\tinyakov\utils\HibernateUtil.class

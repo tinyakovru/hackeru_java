@@ -23,7 +23,6 @@ public class HBMCarRepository implements IRepository<Car> {
 
     @Override
     public List<Car> get() {
-
         SessionFactory factory = HibernateUtil.getInstance().getSessionFactory();
         Session session = factory.getCurrentSession();
         session.getTransaction().begin();
@@ -31,6 +30,8 @@ public class HBMCarRepository implements IRepository<Car> {
         session.getTransaction().commit();
         return list;
     }
+
+
 
     @Override
     public boolean insert(Car item) {

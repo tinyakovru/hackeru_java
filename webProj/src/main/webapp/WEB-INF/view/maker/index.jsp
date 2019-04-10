@@ -36,15 +36,15 @@
         </thead>
         <tbody>
         <%
-            List<Maker> list = (List<Maker>)request.getAttribute("maker");
+            List<Maker> list = (List<Maker>)request.getAttribute("makers");
             for (Maker m : list) {
         %>
         <tr>
             <td><%=m.getId()%></td>
             <td><%=m.getTitle()%></td>
 
-            <td><a href="/cars/edit/<%=m.getId()%>">edit</a></td>
-            <td><a href="/cars/delete/<%=m.getId()%>">delete</a></td>
+            <td><a href="/maker/edit/<%=m.getId()%>">edit</a></td>
+            <td><a href="/maker/delete/<%=m.getId()%>">delete</a></td>
         </tr>
         <%
             }

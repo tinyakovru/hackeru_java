@@ -17,7 +17,7 @@
     <context:component-scan base-package="ru.tinyakov.controller, ru.tinyakov.repository, ru.tinyakov.services"/>
     
     <!-- Добавляем возможность использовать аннотации -->
-    <mvc:annotation-driven />
+    <mvc:annotation-driven conversion-service="conversionService" />
    
     <!-- подключаем ViewResolver для передачи модели из контроллера во View -->
     <bean id="viewResolver"
@@ -28,6 +28,15 @@
     
     <!-- Подключаем обработчик JSON файлов как бин -->
     <bean id="jsonMapper" class="com.fasterxml.jackson.databind.ObjectMapper" />
+
+    <bean id="conversionService"
+          class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+        <property name="converters">
+            <set>
+                <bean class="ru.tinyakov.utils.MakerConverter" />
+            </set>
+        </property>
+    </bean>
 
     
    

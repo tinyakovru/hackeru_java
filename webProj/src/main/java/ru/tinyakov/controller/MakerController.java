@@ -38,14 +38,14 @@ public class MakerController {
             model.addAttribute("message", "empty");
             return "/maker/index";
         }
-        model.addAttribute("categories", list);
+        model.addAttribute("makers", list);
         model.addAttribute("success", true);
         return "/maker/index";
     }
 
     @GetMapping("/add")
     public String view(Model model){
-        model.addAttribute("category", new Maker());
+        model.addAttribute("maker", new Maker());
         model.addAttribute("action", "insert");
         return "/maker/add";
     }

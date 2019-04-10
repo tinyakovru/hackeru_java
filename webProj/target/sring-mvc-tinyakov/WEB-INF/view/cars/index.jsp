@@ -9,6 +9,7 @@
 <%@ page import="ru.tinyakov.entity.Car" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,6 +19,14 @@
 </head>
 <body>
 <div class="container">
+<c:choose>
+    <c:when test="${success == false}">
+        <div class="bg-error">Ошибка: ${message}</div>
+    </c:when>
+    <c:otherwise>
+
+
+
     <h2>Список автомобилей в продаже</h2>
     <hr />
     <div style="margin-bottom: 2em" class="row">
@@ -38,26 +47,31 @@
         </tr>
         </thead>
         <tbody>
+
         <%
             List<Car> list = (List<Car>)request.getAttribute("cars");
             for (Car car : list) {
         %>
-        <tr>
-            <td><%=car.getId()%></td>
-            <td><%=car.getMaker()%></td>
-            <td><%=car.getModel()%></td>
-            <td><%=car.getVin()%></td>
-            <td><%=car.getYear()%></td>
-            <td><%=car.getOdometer()%></td>
-            <td><a href="/cars/edit/<%=car.getId()%>">edit</a></td>
-            <td><a href="/cars/delete/<%=car.getId()%>">delete</a></td>
-        </tr>
+
+            <tr>
+                <td><%=car.getId()%></td>
+                <td><%=car.getMaker().getTitle()%></td>
+                <td><%=car.getModel()%></td>
+                <td><%=car.getVin()%></td>
+                <td><%=car.getYear()%></td>
+                <td><%=car.getOdometer()%></td>
+                <td><a href="/cars/edit/<%=car.getId()%>">редактировать</a></td>
+                <td><a href="/cars/delete/<%=car.getId()%>">удалить</a></td>
+            </tr>
         <%
             }
         %>
 
         </tbody>
     </table>
+    </c:otherwise>
+    </c:choose>
 </div>
 </body>
 </html>
+

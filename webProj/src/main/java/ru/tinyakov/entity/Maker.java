@@ -1,8 +1,9 @@
 package ru.tinyakov.entity;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Maker {
+public class Maker implements Serializable {
 
     private int id;
 

@@ -1,5 +1,6 @@
 D:\!work\hackerU\javaProjects\hackeru_java\webProj\src\main\java\ru\tinyakov\app\Application.java
 D:\!work\hackerU\javaProjects\hackeru_java\webProj\src\main\java\ru\tinyakov\services\JSONCarService.java
+D:\!work\hackerU\javaProjects\hackeru_java\webProj\src\main\java\ru\tinyakov\controller\CarController.java
 D:\!work\hackerU\javaProjects\hackeru_java\webProj\src\main\java\ru\tinyakov\repository\HBMCarRepository.java
 D:\!work\hackerU\javaProjects\hackeru_java\webProj\src\main\java\ru\tinyakov\utils\HibernateUtil.java
 D:\!work\hackerU\javaProjects\hackeru_java\webProj\src\main\java\ru\tinyakov\exceptions\MakerServicesException.java
@@ -14,6 +15,5 @@ D:\!work\hackerU\javaProjects\hackeru_java\webProj\src\main\java\ru\tinyakov\ser
 D:\!work\hackerU\javaProjects\hackeru_java\webProj\src\main\java\MainController__.java
 D:\!work\hackerU\javaProjects\hackeru_java\webProj\src\main\java\ru\tinyakov\repository\JSONCarRepository.java
 D:\!work\hackerU\javaProjects\hackeru_java\webProj\src\main\java\ru\tinyakov\services\ICarServices.java
-D:\!work\hackerU\javaProjects\hackeru_java\webProj\src\main\java\ru\tinyakov\controller\MainApp.java
 D:\!work\hackerU\javaProjects\hackeru_java\webProj\src\main\java\ru\tinyakov\services\CarService.java
 D:\!work\hackerU\javaProjects\hackeru_java\webProj\src\main\java\ru\tinyakov\utils\Help.java

@@ -9,6 +9,7 @@
 <%@ page import="ru.tinyakov.entity.Car" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,46 +19,48 @@
 </head>
 <body>
 <div class="container">
-    <h2>Список автомобилей в продаже</h2>
-    <hr />
-    <div style="margin-bottom: 2em" class="row">
-        <div class="col-12">
-            <a href="/cars/add" class="btn btn-primary">Добавить автомобиль</a>
-        </div>
-    </div>
-    <table class="table table-hovered table-border">
-        <thead>
-        <tr>
-            <th>ID</th>
-            <th>Марка</th>
-            <th>Модель</th>
-            <th>VIN</th>
-            <th>Год выпуска</th>
-            <th>Пробег</th>
-            <th colspan="2">Operations</th>
-        </tr>
-        </thead>
-        <tbody>
-        <%
-            List<Car> list = (List<Car>)request.getAttribute("cars");
-            for (Car car : list) {
-        %>
-        <tr>
-            <td><%=car.getId()%></td>
-            <td><%=car.getMaker()%></td>
-            <td><%=car.getModel()%></td>
-            <td><%=car.getVin()%></td>
-            <td><%=car.getYear()%></td>
-            <td><%=car.getOdometer()%></td>
-            <td><a href="/cars/edit/<%=car.getId()%>">edit</a></td>
-            <td><a href="/cars/delete/<%=car.getId()%>">delete</a></td>
-        </tr>
-        <%
-            }
-        %>
-
-        </tbody>
-    </table>
+    <c:choose>
+        <c:when test="${success == false}">
+            <div class="bg-error">Ошибка: ${message}</div>
+        </c:when>
+        <c:otherwise>
+            <h2>Список автомобилей</h2>
+            <hr />
+            <div style="margin-bottom: 2em" class="row">
+                <div class="col-12">
+                    <a href="/cars/add" class="btn btn-primary">Добавить автомобиль</a>
+                </div>
+            </div>
+            <table class="table table-hovered table-border">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Производитель</th>
+                    <th>Модель</th>
+                    <th>VIN</th>
+                    <th>год</th>
+                    <th>пробег</th>
+                    <th colspan="2">Операции</th>
+                </tr>
+                </thead>
+                <tbody>
+                <c:forEach items="${cars}" var="car">
+                    <tr>
+                        <td>${car.id}</td>
+                        <td>${car.maker.title}</td>
+                        <td>${car.model}</td>
+                        <td>${car.vin}</td>
+                        <td>${car.year}</td>
+                        <td>${car.odometer}</td>
+                        <td><a href="/cars/edit/${car.id}">редактировать</a></td>
+                        <td><a href="/cars/delete/${car.id}">удалить</a></td>
+                    </tr>
+                </c:forEach>
+                </tbody>
+            </table>
+        </c:otherwise>
+    </c:choose>
 </div>
 </body>
 </html>
+

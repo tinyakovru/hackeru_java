@@ -26,11 +26,12 @@
             <%}%>
             <div class="row">
                 <div class="col-6">
-                    <form method="POST" action="/cars/insert">
+                    <form method="POST" action="${action}">
                         <input type="hidden" name="id" value="<%=car.getId()%>" />
                         <div class="form-group">
-                            <input class="form-control" type="text" name="maker" placeholder="производитель" value="<%=car.getMaker()!=null?car.getMaker(): ""%>" />
+                            <form:select class="form-control" path="maker" itemLabel="name" itemValue="id" items="${makers}"  />
                         </div>
+
                         <div class="form-group">
                             <input class="form-control" type="text" name="model" placeholder="модель" value="<%=car.getModel()!=null?car.getModel(): ""%>" />
                         </div>

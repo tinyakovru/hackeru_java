@@ -3,14 +3,14 @@
         "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-    <class name="ru.tinyakov.entity.Car" table="movie">
+    <class name="ru.tinyakov.entity.Car" table="car">
         <id name="id" column="ID">
             <generator class="native"/>
         </id>
+        <many-to-one lazy="false"  name="maker" column="MAKER_ID" cascade="none"/>
         <property name="model" column="model"/>
         <property name="year" column="year"/>
         <property name="vin" column="vin"/>
         <property name="odometer" column="odometer"/>
-        <many-to-one name="maker" column="MAKER_ID" cascade="none"/>
     </class>
 </hibernate-mapping>

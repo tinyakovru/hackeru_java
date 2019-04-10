@@ -4,7 +4,7 @@
     Author     : admin
 --%>
 
-<%@page import="ru.tinyakov.entity.Car"%>
+<%@ page import="ru.tinyakov.entity.Maker" %>
 <%@page contentType="text/html" pageEncoding="windows-1251"%>
 <!DOCTYPE html>
 <html>
@@ -17,32 +17,23 @@
     <body>
         <div class="container">
             <% 
-            Car car = (Car) request.getAttribute("car");
-            if (car.getId() != 0){
+            Maker maker = (Maker) request.getAttribute("maker");
+            if (maker.getId() != 0){
             %>
-            <h2>Редактируем Авто <%=car.getId()+" "+car.getMaker() + " " + car.getModel()+" "+car.getVin()%></h2>
+            <h2>Редактируем производителя <%=maker.getId()%></h2>
             <%} else { %>
-            <h2>Создаем новый автомобиль</h2>
+            <h2>Добавляем нового производителя</h2>
             <%}%>
             <div class="row">
                 <div class="col-6">
                     <form method="POST" action="/maker/insert">
-                        <input type="hidden" name="id" value="<%=car.getId()%>" />
+                        <input type="hidden" name="id" value="<%=maker.getId()%>" />
                         <div class="form-group">
-                            <input class="form-control" type="text" name="maker" placeholder="производитель" value="<%=car.getMaker()!=null?car.getMaker(): ""%>" />
+                            <input class="form-control" type="text" name="title" placeholder="title"
+                                   value="<%=maker.getTitle()!=null?maker.getTitle(): ""%>" />
                         </div>
-                        <div class="form-group">
-                            <input class="form-control" type="text" name="model" placeholder="модель" value="<%=car.getModel()!=null?car.getModel(): ""%>" />
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" type="text" name="vin" placeholder="VIN" value="<%=car.getVin()!=null?car.getVin(): ""%>" />
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" type="text" name="year" placeholder="год выпуска" value="<%=(Integer)(car.getYear())!=null?car.getYear(): ""%>" />
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" type="text" name="odometer" placeholder="пробег" value="<%=(Integer)(car.getOdometer())!=null?car.getOdometer(): ""%>" />
-                        </div>
+
+
                         <div class="form-group">
                             <input class="btn btn-primary" type="submit" value="Save" />
                         </div>

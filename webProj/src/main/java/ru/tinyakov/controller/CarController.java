@@ -58,28 +58,10 @@ public class CarController {
     @GetMapping("/add")
     public String view(Model model){
         model.addAttribute("car", new Car());
-        model.addAttribute("maker",serviceMaker.get());
+        model.addAttribute("makers",serviceMaker.get());
         model.addAttribute("action", "insert");
         return "/cars/add";
     }
-    /*
-    @GetMapping("/add")
-    public String add(Model model) {
-        model.addAttribute("car", new Car());
-        return "/cars/add";
-    }
-    */
-    /*
-    @GetMapping("/edit/{id}")
-    public String edit(Model model, @PathVariable int id) {
-        try {
-            model.addAttribute("car", service.get(id));
-        } catch (CarServicesException ex) {
-            Logger.getLogger(CarController.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        return "/cars/add";
-    }
-    */
 
     @GetMapping("/edit/{id}")
     public String view(@PathVariable int id, Model model){
@@ -89,13 +71,34 @@ public class CarController {
             model.addAttribute("success", true);
             model.addAttribute("action", "/cars/update");
             model.addAttribute("car", car);
-            model.addAttribute("categories", serviceMaker.get());
+            model.addAttribute("makers", serviceMaker.get());
             return "/cars/add";
         }
         model.addAttribute("success", false);
         model.addAttribute("message", "Upps");
         return "/cars/index";
     }
+
+    @PostMapping(value = "/update")
+    public RedirectView update(@ModelAttribute(value = "car") Car car,
+                               BindingResult result,
+                               RedirectAttributes attributes){
+        if (result.hasErrors()){
+            System.out.println("------!!!!!!!!!---------");
+            System.out.println(result.toString());
+            System.out.println("======!!!!!!!!!=========");
+        }
+        try {
+            service.update(car);
+        } catch (CarServicesException e) {
+            attributes.addFlashAttribute("success", false);
+            attributes.addFlashAttribute("message", e.getMessage());
+        }
+        attributes.addFlashAttribute("success", true);
+        return new RedirectView("/cars/");
+    }
+
+/*
 
     @PostMapping(value = "/update")
     public RedirectView update(@ModelAttribute(value = "car") Car car, RedirectAttributes attributes){
@@ -109,6 +112,7 @@ public class CarController {
         attributes.addFlashAttribute("success", true);
         return new RedirectView("/cars/");
     }
+*/
 
     @PostMapping(value = "/insert")
     public RedirectView insert(@ModelAttribute(value = "car") Car car,
@@ -139,6 +143,7 @@ public class CarController {
         attributes.addFlashAttribute("success", true);
         return new RedirectView("/cars/");
     }
+/*
 
     @PostMapping(value = "/insert")
     public String insert(@ModelAttribute(value = "car") Car car, Model model ) {
@@ -154,15 +159,7 @@ public class CarController {
         }
         return "/cars/index";
     }
+*/
 
-    @GetMapping("/delete/{id}")
-    public String delete(Model model, @PathVariable int id) {
-        try {
-            service.delete(id);
-            model.addAttribute("car", service.get());
-        } catch (CarServicesException e) {
-            e.printStackTrace();
-        }
-        return "/cars/index";
-    }
+
 }

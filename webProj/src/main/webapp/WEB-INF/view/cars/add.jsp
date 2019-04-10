@@ -3,52 +3,94 @@
     Created on : 27.03.2019, 14:03:19
     Author     : admin
 --%>
+<%@page contentType="text/html" pageEncoding="UTF-8" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 
-<%@page import="ru.tinyakov.entity.Car"%>
-<%@page contentType="text/html" pageEncoding="windows-1251"%>
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-        
-        <title>JSP Page</title>
-    </head>
-    <body>
-        <div class="container">
-            <% 
-            Car car = (Car) request.getAttribute("car");
-            if (car.getId() != 0){
-            %>
-            <h2>Редактируем Авто <%=car.getId()+" "+car.getMaker() + " " + car.getModel()+" "+car.getVin()%></h2>
-            <%} else { %>
-            <h2>Создаем новый автомобиль</h2>
-            <%}%>
-            <div class="row">
-                <div class="col-6">
-                    <form method="POST" action="/cars/insert">
-                        <input type="hidden" name="id" value="<%=car.getId()%>" />
-                        <div class="form-group">
-                            <input class="form-control" type="text" name="maker" placeholder="производитель" value="<%=car.getMaker()!=null?car.getMaker(): ""%>" />
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" type="text" name="model" placeholder="модель" value="<%=car.getModel()!=null?car.getModel(): ""%>" />
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" type="text" name="vin" placeholder="VIN" value="<%=car.getVin()!=null?car.getVin(): ""%>" />
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" type="text" name="year" placeholder="год выпуска" value="<%=(Integer)(car.getYear())!=null?car.getYear(): ""%>" />
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" type="text" name="odometer" placeholder="пробег" value="<%=(Integer)(car.getOdometer())!=null?car.getOdometer(): ""%>" />
-                        </div>
-                        <div class="form-group">
-                            <input class="btn btn-primary" type="submit" value="Save" />
-                        </div>
-                    </form>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+
+    <title>РђРІС‚РѕРјРѕР±РёР»Рё</title>
+</head>
+<body>
+<div class="container">
+    <c:choose>
+        <c:when test="${car.id == 0}">
+            РЎРѕР·РґР°РЅРёРµ РЅРѕРІРѕРіРѕ Р°РІС‚РѕРјРѕР±РёР»СЏ
+        </c:when>
+        <c:otherwise>
+            Р РµРґР°РєС‚РёСЂРѕРІР°РЅРёРµ Р°РІС‚РѕРјРѕР±РёР»СЏ<c:out value="${car.model}"/>
+        </c:otherwise>
+    </c:choose>
+    <div class="row" style="margin-top: 2em">
+        <div class="col-6">
+            <form:form modelAttribute="car" method="POST" action="${action}">
+                <form:hidden path="id"/>
+                <div class="form-group">
+                    <form:select class="form-control" path="maker" itemLabel="title" itemValue="id" items="${makers}"/>
                 </div>
+                <div class="form-group">
+                    <form:input class="form-control" path="model" placeholder="РњРѕРґРµР»СЊ"/>
+                </div>
+                <div class="form-group">
+                    <form:input class="form-control" path="vin" placeholder="vin"/>
+                </div>
+                <div class="form-group">
+                    <form:input class="form-control" path="year" placeholder="РіРѕРґ"/>
+                </div>
+                <div class="form-group">
+                    <form:input class="form-control" path="odometer" placeholder="РїСЂРѕР±РµРі"/>
+                </div>
+
+                <div class="form-group">
+                    <input class="btn btn-primary" type="submit" value="РЎРѕС…СЂР°РЅРёС‚СЊ"/>
+                </div>
+            </form:form>
+        </div>
+    </div>
+</div>
+</body>
+<%--
+<body>
+    <div class="container">
+        <%
+        Car car = (Car) request.getAttribute("car");
+        if (car.getId() != 0){
+        %>
+        <h2>Р РµРґР°РєС‚РёСЂСѓРµРј РђРІС‚Рѕ <%=car.getId()+" "+car.getMaker() + " " + car.getModel()+" "+car.getVin()%></h2>
+        <%} else { %>
+        <h2>РЎРѕР·РґР°РµРј РЅРѕРІС‹Р№ Р°РІС‚РѕРјРѕР±РёР»СЊ</h2>
+        <%}%>
+        <div class="row">
+            <div class="col-6">
+                <form method="POST" action="${action}">
+                    <input type="hidden" name="id" value="<%=car.getId()%>" />
+                    <div class="form-group">
+                        <form:select class="form-control" path="maker" itemLabel="name" itemValue="id" items="${makers}"  />
+                    </div>
+
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="model" placeholder="РјРѕРґРµР»СЊ" value="<%=car.getModel()!=null?car.getModel(): ""%>" />
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="vin" placeholder="VIN" value="<%=car.getVin()!=null?car.getVin(): ""%>" />
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="year" placeholder="РіРѕРґ РІС‹РїСѓСЃРєР°" value="<%=(Integer)(car.getYear())!=null?car.getYear(): ""%>" />
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="odometer" placeholder="РїСЂРѕР±РµРі" value="<%=(Integer)(car.getOdometer())!=null?car.getOdometer(): ""%>" />
+                    </div>
+                    <div class="form-group">
+                        <input class="btn btn-primary" type="submit" value="Save" />
+                    </div>
+                </form>
             </div>
         </div>
-    </body>
+    </div>
+</body>
+--%>
 </html>
